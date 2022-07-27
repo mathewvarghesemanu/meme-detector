@@ -1,0 +1,19 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "args": ["--inputpath","C:/Users/MATHE/Desktop/pixel4/memes","--outputpath","C:/Users/MATHE/Desktop/pixel4/meme50","--textthreshold","0.5"],
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "purpose": ["debug-in-terminal"]
+            
+        }
+    ]
+}

@@ -1,0 +1,4 @@
+python train.py --img 640 --batch 16 --epochs 3 --data "C:\Users\MATHE\Desktop\csgo_bot\CSGO.v9i.yolov5pytorch\data.yaml" --weights yolov5m.pt
+
+
+python meme.py -i <path> -o <path> -t .5

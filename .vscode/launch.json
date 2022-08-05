@@ -14,6 +14,28 @@
             "justMyCode": true,
             "purpose": ["debug-in-terminal"]
             
-        }
+        },
+        {
+            "name": "Python: document detection",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "args": ["--inputpath","C:/Users/MATHE/Desktop/pixel4/WhatsApp Images","--outputpath","C:/Users/MATHE/Desktop/pixel4/WhatsApp Images/memes/documents/doc","--textthreshold","0.9","--model","models/document_classifier_model_cpu.pt"],
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "purpose": ["debug-in-terminal"]
+            
+        },    
+        {
+            "name": "Python: Batch run",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "args": ["--inputpath","C:/Users/MATHE/Desktop/pixel4/WhatsApp Images/memes/meme20","--outputpath","C:/Users/MATHE/Desktop/test meme"],
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "purpose": ["debug-in-terminal"]
+            
+        },
     ]
 }

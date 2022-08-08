@@ -1,6 +1,8 @@
 # Meme-detector
 WhatsApp meme detector for removing unnecessary memes.
 
+![Meme](Assets\meme_about_meme_detection.png?raw=true "Title")
+
 # running meme detector locally
 python meme.py -i {path} -o {path} -t {threshold} between 0 to 1
 
@@ -25,3 +27,6 @@ Create a UI in Sreamlit
 Create a folder structure and move memes accordingly
 Create an android app that can suggest you memes to remove periodically
 
+
+# Gratitude
+Vignesh Hari: https://github.com/vigneshhari
